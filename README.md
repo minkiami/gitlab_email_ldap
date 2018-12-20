@@ -1,4 +1,4 @@
-# gitlab_skipping_ldap_email
+# LDAP gitlab PATCH
 Patch for gitlab to skipping confirmation email for LDAP users
 
 
@@ -11,6 +11,6 @@ Run the script from the machine where gitlab is installed and pass the id of the
 
 Example:
 
-./script.sh 24 user@fake.org
+./patchl_dap 24 user@fake.org
 
 After that the user will be able to login and no confirmation email will be sent and no token will be required!
