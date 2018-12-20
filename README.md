@@ -2,15 +2,18 @@
 Patch for gitlab to skipping confirmation email for LDAP users
 
 
-This patch is quite simple but will solve a big problem, it allows you to skip the email configuration when using an external auth 
-like ldap.
+This patch is useful for gitlab server for internal networks not connected to the Internet as it allows admin to completely skip the confirmation email step when a users log in via ldap. 
 
-The usage is quite simple.
+It has been tested and works with the following versiob of gitlab:
 
-Run the script from the machine where gitlab is installed and pass the username as an argument.
+- Community Edition 11.5.4
 
-Example:
+## Usage:
 
-./patchl_dap.sh username
-
-After that the user will be able to login and no confirmation email will be sent and no token will be required!
+Login gitlab server via ssh.
+```
+wget https://raw.githubusercontent.com/minkiami/gitlab_email_ldap/master/patch_ldap.sh
+chmod +x .\patch_ldap.sh
+./patch_ldap.sh username
+```
+After that the user will be able to login and no confirmation email will be sent and no token will be required.
