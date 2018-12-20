@@ -7,10 +7,10 @@ like ldap.
 
 The usage is quite simple.
 
-Run the script from the machine where gitlab is installed and pass the id of the user and a fake email as argument.
+Run the script from the machine where gitlab is installed and pass the username as an argument.
 
 Example:
 
-./patchl_dap 24 user@fake.org
+./patchl_dap username
 
 After that the user will be able to login and no confirmation email will be sent and no token will be required!
