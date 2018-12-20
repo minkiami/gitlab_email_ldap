@@ -14,7 +14,7 @@ From github server:
 
 ```
 wget https://raw.githubusercontent.com/minkiami/gitlab_email_ldap/master/patch_ldap.sh
-chmod +x .\patch_ldap.sh
+chmod +x ./patch_ldap.sh
 ./patch_ldap.sh username
 ```
 After that the user will be able to login and no confirmation email will be sent and no token will be required.
