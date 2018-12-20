@@ -4,7 +4,7 @@ Patch for gitlab to skipping confirmation email for LDAP users
 
 This patch is useful for gitlab server for internal networks not connected to the Internet as it allows admin to completely skip the confirmation email step when a users log in via ldap. 
 
-It has been tested and works with the following versiob of gitlab:
+It has been tested and works with the following version of gitlab:
 
 - Community Edition 11.5.4
 
