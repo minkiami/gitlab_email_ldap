@@ -10,7 +10,8 @@ It has been tested and works with the following version of gitlab:
 
 ## Usage:
 
-Login gitlab server via ssh.
+From github server:
+
 ```
 wget https://raw.githubusercontent.com/minkiami/gitlab_email_ldap/master/patch_ldap.sh
 chmod +x .\patch_ldap.sh
