@@ -11,6 +11,6 @@ Run the script from the machine where gitlab is installed and pass the username 
 
 Example:
 
-./patchl_dap username
+./patchl_dap.sh username
 
 After that the user will be able to login and no confirmation email will be sent and no token will be required!
